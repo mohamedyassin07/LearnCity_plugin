@@ -1,0 +1,23 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+
+
+ #aw-whats-new-submit{
+    color: black !important;
+ }
+
+
+ .comment-item div a img{
+    max-width: 50px !important;
+    max-height: 50px !important;
+ }
+ #group-members-search{
+     width: 100%;
+ }
+
+ #delete-group-groups-li{
+    display: none;
+ }
