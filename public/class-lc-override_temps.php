@@ -13,6 +13,8 @@ class LC_Override_Temps{
         $temps = array(
             '/stm-lms-templates/buddypress/account/private/instructor.php',
             '/stm-lms-templates/buddypress/account/private/parts/buddypress.php',
+            '/stm-lms-templates/account/private/instructor_parts/courses.php',
+            '/stm-lms-templates/stm-lms-lesson.php',            
         );
         if(in_array($temp,$temps)){
             return LC_FILES.'public/partials';
