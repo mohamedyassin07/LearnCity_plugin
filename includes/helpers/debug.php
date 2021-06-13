@@ -212,14 +212,10 @@ function tjr_deug_log_orders_content_column_content( $column ) {
 add_action('admin_notices', 'debug_admin_notice');
 function debug_admin_notice(){
 	echo '<div class="notice notice-warning is-dismissible">';
-	include_once('test.php');
+	include('test.php');
 	echo '</div>';
 }
 
-// so it will appears if in front end
-if (! is_admin()){
-	include_once('test.php');
-}
 
 // if some thing need to be excuted outside hook or before the 'admin_notices' hook
 include_once('test_ouside_hooks.php');
